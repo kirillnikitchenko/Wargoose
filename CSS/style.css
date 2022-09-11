@@ -38,6 +38,7 @@ header {
 .Wargoose__container {
     background-color: #fff;
     padding: 60px 56px;
+    align-self: center;
 }
 
 .Wargoose__title {
@@ -86,4 +87,23 @@ header {
     display: flex;
     justify-content: space-between;
     height: 100%;
+}
+
+.Wargoose__image {
+    align-self: flex-end;
+}
+
+.goose__facts {
+    padding: 52px 0px 72px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goose__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+    margin: 16px 0;
 }
