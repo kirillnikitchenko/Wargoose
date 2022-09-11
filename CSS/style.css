@@ -4,11 +4,14 @@ html {
 
 body {
     height: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
     width: 1170px;
     margin: 0 auto;
+    height: 100%;
+    position: relative;
 }
 
 .main__page {
@@ -22,9 +25,65 @@ header {
     margin-top: 34px;
     margin-bottom: 58px;
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .logo__text {
     margin-left: 18px;
+}
 
+.Wargoose__container {
+    background-color: #fff;
+    padding: 60px 56px;
+}
+
+.Wargoose__title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+}
+.Wargoose__greeting {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.Wargoose__start__text {
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.Wargoose__description {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.Wargoose__launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main__page__row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
 }
