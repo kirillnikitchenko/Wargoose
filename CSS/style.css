@@ -143,5 +143,33 @@ header {
     width: 280px;
 }
 
+.victory__bgd {
+    width: 1170px;
+    background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.victory__footer {
+    display: flex;
+    justify-content: center;
+}
 
+.victory__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+}
+
+.victory__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    margin: 0 148px;
+}
