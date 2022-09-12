@@ -193,11 +193,14 @@ header {
 }
 
 .modal__form {
-    background-color: #FFF;
-    padding: 32px 92px 60px 92px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.modal__form__container{
+    background-color: #FFF;
+    padding: 32px 92px 60px 92px;
     position: relative;
 }
 
