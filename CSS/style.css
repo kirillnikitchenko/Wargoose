@@ -163,13 +163,107 @@ header {
     font-size: 48px;
     line-height: 100px;
     color: #1B1D1F;
+    margin: 16px 0;
 }
 
 .victory__description {
+    width: 875px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #1B1D1F;
     margin: 0 148px;
+}
+
+.modal__bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(27 29 31 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__form {
+    background-color: #FFF;
+    padding: 32px 92px 60px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.modal__form__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 32px 0 12px 0;
+}
+
+.modal__form__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.modal__form__field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+}
+
+.modal__field__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+.modal__field__input {
+    border: 1px solid #005BBB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding: 4px 8px;
+}
+
+.modal__form__button {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    margin-top: 24px;
+}
+
+.clouse__button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    color: #1B1D1F;
+    cursor: pointer;
+    border: 0;
+    background: none;
+
+
 }
